@@ -4,7 +4,7 @@ A sample java code to produce signed cookies/url request in CloudFront with Cann
 ## CloudFront Console Configuration
 You might refer to the Official Doc [Creating key pairs for your signers](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-trusted-signers.html#private-content-creating-cloudfront-key-pairs) to finish the following steps
 
-1. Create a key pair for a trusted key group (recommended)
+1. **Create a key pair for a trusted key group (recommended)**
 
     To create a key pair for a trusted key group, perform the following steps:
     
@@ -39,13 +39,13 @@ You might refer to the Official Doc [Creating key pairs for your signers](https:
     
     ![create key group](https://github.com/nikosheng/aws-cloudfront-signed-cookies-java/blob/master/img/create-key-group.png)
 
-2. Create Distribution  
+2. **Create Distribution**  
 ![create distribution](https://github.com/nikosheng/aws-cloudfront-signed-cookies-java/blob/master/img/create-distribution%402x.png)
 
-3. Origin Settings  
+3. **Origin Settings**  
 ![origin settings](https://github.com/nikosheng/aws-cloudfront-signed-cookies-java/blob/master/img/origin-settings.png)
 
-4. Cache Behavior Settings  
+4. **Cache Behavior Settings**  
 ![cache behavior settings](https://github.com/nikosheng/aws-cloudfront-signed-cookies-java/blob/master/img/cache-behavior.png)
 
 ## Code Setup
