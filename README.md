@@ -3,7 +3,9 @@ A sample java code to produce signed cookies request in CloudFront with Canned a
 
 ## Setup
 
-*Replace the cloudfront domain / s3ObjectKey /  keyPairId in the sample code*
+**Replace the cloudfront domain / s3ObjectKey /  keyPairId in the sample code**
+
+You might also change the iprange to resrict the ip cidr to visit your contents.
 
 Signed URLs for a private distribution. Note that Java only supports SSL certificates in DER format, 
 so you will need to convert your PEM-formatted file to DER format. To do this, you can use openssl:
