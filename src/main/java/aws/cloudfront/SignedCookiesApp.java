@@ -21,7 +21,7 @@ import java.util.concurrent.TimeUnit;
  *
  * Author: Niko Feng (nikosheng@gmail.com)
  */
-public class App 
+public class SignedCookiesApp
 {
     public static void main(String[] args) throws IOException, InvalidKeySpecException {
         /**
@@ -37,7 +37,7 @@ public class App
          */
         Security.addProvider(new BouncyCastleProvider());
         String distributionDomain = "xxx.cloudfront.net";
-        String privateKeyFilePath = Objects.requireNonNull(App.class.getClassLoader().getResource("private_key.der")).getPath();
+        String privateKeyFilePath = Objects.requireNonNull(SignedCookiesApp.class.getClassLoader().getResource("private_key.der")).getPath();
         File privateKeyFile = new File(privateKeyFilePath);
         String s3ObjectKey = "img/aws-web.png";
 
