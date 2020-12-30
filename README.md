@@ -42,10 +42,10 @@ You might refer to the Official Doc [Creating key pairs for your signers](https:
 2. Create Distribution  
 ![create distribution](https://github.com/nikosheng/aws-cloudfront-signed-cookies-java/blob/master/img/create-distribution%402x.png)
 
-3. Origin Settings
-![origin settings](https://github.com/nikosheng/aws-cloudfront-signed-cookies-java/blob/master/img/corigin-settings.png)
+3. Origin Settings  
+![origin settings](https://github.com/nikosheng/aws-cloudfront-signed-cookies-java/blob/master/img/origin-settings.png)
 
-4. Cache Behavior Settings
+4. Cache Behavior Settings  
 ![cache behavior settings](https://github.com/nikosheng/aws-cloudfront-signed-cookies-java/blob/master/img/cache-behavior.png)
 
 ## Code Setup
